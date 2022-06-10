@@ -119,7 +119,6 @@
             </div>
         </div>
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-        <script type="text/javascript" src="sheep.js"></script>
 
         <script type="text/javascript">
         let grid = GridStack.init({
@@ -172,13 +171,8 @@
                 $('head').append("<link id='skin' rel='stylesheet' href='"+css+"'>");
             });
         });
-        /*
-            var custom="<progress data-url='https://www.bay.one/sheep.php?action=frozen&key=ccccc4e1tt2ce'></progress>";
-            grid.addWidget({w: 2,h:50, content: custom});
-            sheepProgressContentLoader();
-        */
         </script>
-        <script src="http://154.66.197.53/sub/ship/js/jquery.canvasjs.min.js"></script>
+        <script src="../js/jquery.canvasjs.min.js"></script>
     </main>
 </body>
 </html>
